@@ -1,0 +1,32 @@
+#register{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 999;
+  background: whitesmoke;
+  overflow: hidden;
+}
+#register h3{
+    text-align: center;
+    font-size: 0.5rem;
+    margin: 0.5rem;
+
+}
+#register form .input-group{
+    margin: 0.25rem 0;
+}
+
+#sendSmcode{
+    cursor: pointer;
+}
+
+#sendSmcode:active{
+    background-color: lightblue;
+}
+
+.error{
+    margin-left:2rem;
+    font-size:0.3rem;
+    color: #e62e2e;
+    display: none;
+}
